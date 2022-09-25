@@ -1,0 +1,141 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  section {
+    scroll-margin-top: 100px;
+    margin-bottom: 120px;
+    padding: -40px;
+  }
+  
+  #header {
+    transition: all 0.5s;
+    background: #f1f3ff;
+    z-index: 997;
+    border-bottom: 1px solid #e6f2fb;
+  }
+  
+  button {
+    box-sizing: border-box;
+    padding: 8px 12px;
+    gap: 10px;
+    background: #5cb85f;
+    border-radius: 2px;
+    border-color: transparent;
+    color: white;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  button.logo {
+    background: #0d28a6;
+  }
+  
+  h1 {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+  }
+  
+  h2 {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+  }
+  
+  h3 {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  nav.navbar {
+    background: #f1f3ff;
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+  }
+  
+  .navbar .navbar-nav li {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  #text-main{
+    padding-left: 6em;
+  }
+  
+  #why-us h3 {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 1rem;
+  }
+  
+  #why-us p {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  #footer p a {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  #faq button {
+    font-weight: 300;
+  }
+  .item {
+    padding-left: 25%;
+  }
+  
+  #carimobil {
+    position: absolute;
+    width: 1047px;
+    height: 106px;
+    left: 196px;
+    top: 458px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+  @media only screen and (max-width: 576px){
+    #offcanvasNavbar{
+      width: 50%;
+    }
+    #text-main{
+      padding-left: 1em;
+    }
+    #rate{
+      margin-inline: auto;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    
+    #text-main{
+      padding-left: 1em;
+    }
+  }
